@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playwrite+PT:wght@100..400&display=swap" rel="stylesheet">
+
+  <title>Tarefas do Dia</title>
+</head>
+
+<body>
+  <!-- MENU ESQUERDO/LINKS -->
+
+  <div class="container">
+    <div class="menu">
+      <img src="suelen1.jpg" draggable="true">
+      <h2><strong>Suelen Braga</strong></h2>
+      <p>Desenvolvedora Frontend, 34 anos, 
+        graduanda em Análise e desenvolvimento de Sistemas pela IBMR. </p>
+      <ul>
+        <li><a href="https://github.com/suelenbraga1">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/suelenbraga-/">Linkedin</a></li>
+        <li><a href="https://www.linkedin.com/in/suelenbraga-/">Telefone</a></li>
+        <li><a href="https://www.linkedin.com/in/suelenbraga-/">E-mail</a></li>
+     </ul>
+    </div>
+    
+    <!--Classe com o conteúdo do Dia e Noite-->
+    <div class="content">
+      <h1>LISTA DE TAREFAS</h1>
+      <div class="tasks">
+
+      <!-- TAREFAS DIA -->
+        <div class="table1">
+          <h2>Dia</h2>
+          <!--Permite edição da tabela de conteudos-->
+          <ol id="dayTasks" contenteditable="true">
+            <ul><li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Aulas Teóricas</li>
+                <li>Almoçar</li>
+                <li>Fazer exercícios</li>
+            <ul>
+          </ol>
+        </div>
+
+        <!-- TAREFAS NOITE --> 
+        <div class="table2">
+          <h2>Noite</h2>
+          <ol id="nightTasks" contenteditable="true">
+            <ul><li>Jantar</li>
+                <li>Aulas Teóricas</li>
+                <li>Brincar/alimentar meus gatos</li>
+                <li>Tomar banho</li>
+                <li>Dormir</li>
+            </ul>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
